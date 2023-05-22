@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Noto+Nastaliq+Urdu&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Signika+Negative:wght@300;400;500;600;700&display=swap");
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+#height {
+    align-items: center;
+    justify-content: space-evenly;
+    height: 60px;
+}
+
+#height h3 {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+#height h3:first-child {
+    color: #49a6e9;
+}
+
+#card {
+    height: 90.5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 80px;
+    text-align: center;
+    background-color: black;
+    border-radius: 18px;
+    color: white;
+    font-size: 1.8rem;
+}
+
+#btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    color: black;
+    border: 1px solid black;
+}
+
+#btn:hover {
+    background-color: black;
+    color: white;
+    transition: all 0.6s ease;
+}
+
+@media screen and (max-width: 750px) {
+    #card #box {
+        width: 60%;
+        font-size: 1.3rem;
+    }
+    #btn {
+        padding: 8px 20px;
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #card #box {
+        width: 70%;
+        font-size: 1.2rem;
+    }
+    #btn {
+        padding: 8px 15px;
+        font-size: 1rem;
+    }
+}
